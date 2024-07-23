@@ -1,0 +1,51 @@
+.box{
+    border: 2px solid black;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-image: linear-gradient(red,yellow,green);
+    padding: 5px;
+}
+.first{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.inp{
+    
+    width: 180px;
+    height: 30px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.btn{
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;
+    margin: 2px;
+    background-color: white;
+}
+.wishbox{
+    font-size: 20px;
+    border: 2px solid black;
+    height: 385px;
+    width: 330px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: black;
+    color: white;
+}
+.delete{
+    height: 22px;
+    float: right;
+    margin-right: 18px;
+    border-radius: 10px;
+    background-color: rgb(196, 63, 63);
+    color: white;
+}
